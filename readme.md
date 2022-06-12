@@ -13,7 +13,14 @@
 - 버스요금은 1000원 지하철요금은 1500원이다
 
 
+
+### 아래는 시스템을 구동하는 Main Class 이다 아래의 클래스가 동작하도록 아래의 클래스를 완성시키세요
+- Passenger 탑승객
+- Transportation 교통수단
+- Bus 버스
+- Subway 
 ``` java
+
 import java.util.Scanner;
 
 public class Main {
@@ -40,7 +47,7 @@ public class Main {
 			if(type==1) {
 				System.out.println("충전할 금액을 입력해주세요");
 				int money=scanner.nextInt();
-				passenger.charge(money);
+				passenger.charge(money);	//탑승객의 잔액을 충전
 			}
 			//탑승을 선택한경우
 			else if(type==2) {
@@ -49,10 +56,10 @@ public class Main {
 				
 				//버스를 선택한경우
 				if(transportationType==1) {
-					passenger.take(bus);
+					passenger.take(bus);	//탑승객이 버스를 탑승
 				}
 				else if(transportationType==2) {
-					passenger.take(subway);
+					passenger.take(subway);	//탑승객이 지하철을 탑
 				}
 			}
 			//종료인경우
@@ -65,3 +72,7 @@ public class Main {
 	}
 }
 ```
+
+
+			
+			
