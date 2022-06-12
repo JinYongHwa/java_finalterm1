@@ -74,5 +74,4 @@ public class Main {
 ```
 
 ### 실행결과
-			
-			![image](https://user-images.githubusercontent.com/21700482/173219868-4dec93f4-5730-4019-a2ce-01f0ad0ebd4e.png)
+![image](https://user-images.githubusercontent.com/21700482/173219868-4dec93f4-5730-4019-a2ce-01f0ad0ebd4e.png)
