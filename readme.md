@@ -19,7 +19,7 @@
 - Passenger 탑승객
 - Transportation 교통수단
 - Bus 버스
-- Subway 
+- Subway 지하철
 ``` java
 
 import java.util.Scanner;
